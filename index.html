@@ -170,7 +170,7 @@
 
         
         <a href="/2017/07/24/Unicode和UTF-8的区别/" class="archive-article-date">
-  	<time datetime="2017-07-24T08:42:47.402Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-24</time>
+  	<time datetime="2017-07-24T08:48:28.283Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-24</time>
 </a>
         
       </header>
@@ -225,6 +225,7 @@
 <p>而如果你在”联通”之后多输入几个字，其他的字的编码不见得又恰好是110和10开始的字节，这样再次打开时，记事本就不会坚持这是一个utf8编码的文件，而会用ANSI的方式解读之，这时乱码又不出现了。</p>
 <p>好了，终于可以回答NICO的问题了，在数据库里，有n前缀的字串类型就是UNICODE类型，这种类型中，固定用两个字节来表示一个字符，无论这个字符是汉字还是英文字母，或是别的什么。</p>
 <p>如果你要测试”abc汉字”这个串的长度，在没有n前缀的数据类型里，这个字串是7个字符的长度，因为一个汉字相当于两个字符。而在有n前缀的数据类型里，同样的测试串长度的函数将会告诉你是5个字符，因为一个汉字就是一个字符。 </p>
+<p>原文：<a href="https://wenku.baidu.com/view/cb9fe505cc17552707220865.html" target="_blank" rel="external">unicode,ansi,utf-8,unicode big endian编码的区别</a></p>
 
       
 
@@ -585,15 +586,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">马克飞象</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">java</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">错误解决记录</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">马克飞象</a>
               </li>
             
             <div class="clearfix"></div>
